@@ -3,8 +3,8 @@ class Database
 {   
     private $host = "localhost";
     private $db_name = "app";
-    private $username = "root";
-    private $password = "redhat";
+    private $username = "notroot";
+    private $password = "do not use root password";
     public $conn;
      
     public function dbConnection()
